@@ -1,25 +1,19 @@
 {
-  "dependencies": {
-    "express": "^4.18.1",
-    "fs": "^0.0.1-security",
-    "moment": "^2.29.1"
-  },
-  "name": "coder",
+  "name": "backend-coderhouse",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Josefina1808/backEnd.git"
+    "url": "git+https://github.com/GiJwAs/Backend-coderhouse.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Josefina1808/backEnd/issues"
+    "url": "https://github.com/GiJwAs/Backend-coderhouse/issues"
   },
-  "homepage": "https://github.com/Josefina1808/backEnd#readme",
-  "description": "1. Realizar un proyecto de servidor basado en node.js que utilice el módulo express e implemente los siguientes endpoints en el puerto 8080:     - Ruta get '/productos' que devuelva un array con todos los productos disponibles en el servidor     - Ruta get '/productoRandom' que devuelva un producto elegido al azar entre todos los productos disponibles 2. Incluir un archivo de texto 'productos.txt' y utilizar la clase Contenedor del desafío anterior para acceder a los datos persistidos del servidor. # Autor Josefina Esnaola # Reconocimientos Equipo CoderHouse"
+  "homepage": "https://github.com/GiJwAs/Backend-coderhouse#readme"
 }
