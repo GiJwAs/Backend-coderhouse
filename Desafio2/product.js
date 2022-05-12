@@ -17,7 +17,7 @@ const run = async function () {
     contenedor.save({
         title: "Canguro",
         price: 9500,
-        thumbnail: "	https://www.camaronbrujo.com/media/catalog/product…00/9df78eab33525d08d6e5fb8d27136e95/w/e/web-9.jpg"
+        thumbnail:"https://www.camaronbrujo.com/media/catalog/product…00/9df78eab33525d08d6e5fb8d27136e95/w/e/web-9.jpg"
     })
     console.log(contenedor.getById(1));
     console.log(contenedor.getById(5));
