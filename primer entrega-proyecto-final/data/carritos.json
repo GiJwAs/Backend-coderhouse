@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "timestamp": "09/06/2022 19:48:51",
+    "productos": [
+      {
+        "nombre": "Articulo ROJO-VERDE",
+        "descripcion": "Acá va una descripcion",
+        "foto": "URL foto",
+        "precio": 15200,
+        "stock": 100,
+        "id": 2,
+        "codigo": 2,
+        "timestamp": "09/06/2022 17:41:20"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "timestamp": "09/06/2022 19:49:48",
+    "productos": []
+  }
+]
