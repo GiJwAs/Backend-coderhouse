@@ -61,21 +61,21 @@ carritoRouter.post('/:id/productos', async (req, res) => {
 
         const { id } = req.params;
 
-        const { productos } = req.body;
+        const { producto } = req.body;
 
         if (!Object.keys(req.body).length) return res.status(400).json({
             error: 'no se han enviado productos'
         });
 
-        if (productos?.lenght) return res.status(400).json({
+        if (producto?.lenght) return res.status(400).json({
             error: 'no se han especificado productos'
         });
 
-        const productosEncontrados = await miProductos.getAllById( productos );
+        const productoEncontrados = await miProductos.getAllById( producto );
 
-        if (productosEncontrados.error) return res.status( productosEncontrados.status ).json( productosEncontrados );
+        if (productoEncontrados.error) return res.status( productoEncontrados.status ).json( productosEncontrados );
 
-        const carrito = await miCarrito.addProducto(parseInt(id), productosEncontrados);
+        const carrito = await miCarrito.addProducto(parseInt(id), productoEncontrados);
 
         if (carrito.error) return res.status( carrito.status ).json( carrito );
         else res.status(201).json(carrito);
