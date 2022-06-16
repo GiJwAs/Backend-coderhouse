@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Remera",
+    "price": 3450,
+    "thumbnail": "https://www.camaronbrujo.com/media/catalog/product…/a/palmera---capuccino-3469-y-verde-ax-5402-h.jpg",
+    "id": 1
+  },
+  {
+    "title": "Pantalon",
+    "price": 10000,
+    "thumbnail": "https://www.camaronbrujo.com/media/catalog/product…d08d6e5fb8d27136e95/c/a/camaron_original_175_.jpg",
+    "id": 2
+  },
+  {
+    "title": "Canguro",
+    "price": 9500,
+    "thumbnail":"https://www.camaronbrujo.com/media/catalog/product…00/9df78eab33525d08d6e5fb8d27136e95/w/e/web-9.jpg",
+    "id": 3
+  },
+  {
+    "title": "Remera_2",
+    "price": 3500,
+    "thumbnail": "https://www.camaronbrujo.com/media/catalog/product…/a/palmera---capuccino-3469-y-verde-ax-5402-h.jpg",
+    "id": 4
+  }
+]
