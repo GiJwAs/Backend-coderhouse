@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "Articulo ROJO-VERDE",
+    "descripcion": "Acá va una descripcion",
+    "foto": "URL foto",
+    "precio": 15200,
+    "stock": 100,
+    "id": 1,
+    "codigo": 1,
+    "timestamp": "30/06/2022 20:05:21"
+  },
+  {
+    "nombre": "Articulo ROJO-VERDE",
+    "descripcion": "Acá va una descripcion",
+    "foto": "URL foto",
+    "precio": 15200,
+    "stock": 100,
+    "id": 2,
+    "codigo": 2,
+    "timestamp": "30/06/2022 20:05:29"
+  },
+  {
+    "nombre": "Articulo ROJO-VERDE",
+    "descripcion": "Acá va una descripcion",
+    "foto": "URL foto",
+    "precio": 15200,
+    "stock": 100,
+    "id": 3,
+    "codigo": 3,
+    "timestamp": "30/06/2022 20:05:25"
+  }
+]
