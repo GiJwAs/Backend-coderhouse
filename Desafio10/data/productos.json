@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Remera",
+    "price": "1200",
+    "thumbnail": "https://image.shutterstock.com/image-photo/black-plain-shortsleeve-cotton-tshirt-600w-1904909734.jpg",
+    "id": 1
+  },
+  {
+    "title": "Remera",
+    "price": "1200",
+    "thumbnail": "https://image.shutterstock.com/image-photo/black-plain-shortsleeve-cotton-tshirt-600w-1904909734.jpg",
+    "id": 2
+  },
+  {
+    "title": "Remera",
+    "price": "1200",
+    "thumbnail": "https://image.shutterstock.com/image-photo/black-plain-shortsleeve-cotton-tshirt-600w-1904909734.jpg",
+    "id": 3
+  }
+]
