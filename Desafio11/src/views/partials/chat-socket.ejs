@@ -1,0 +1,31 @@
+<div class="p-5">
+
+    <h1 class="text-primary font-monospace"> 
+        Centro de mensajes
+    </h1>
+    <h2 class="text-primary font-monospace"> 
+        (Compresión: <span class="compression">00</span>%)
+    </h2>
+
+    <div class="mb-3">
+        <input type="email" form="form-message" class="form-control my-2" id="email" placeholder="name@example.com" required>
+        <input type="text" form="form-message" class="form-control my-2" id="firstname" placeholder="firstname" required>
+        <input type="text" form="form-message" class="form-control my-2" id="lastname" placeholder="lastname" required>
+        <input type="number" form="form-message" class="form-control my-2" id="age" placeholder="age" required>
+        <input type="text" form="form-message" class="form-control my-2" id="alias" placeholder="alias" required>
+        <input type="text" form="form-message" class="form-control my-2" id="avatar" placeholder="avatar url" required>
+    </div>
+    
+    <div id="messages" class="bg-dark mb-3 p-2 rounded" style="height: 250px; overflow-y: scroll;">
+    </div>
+
+    <form id="form-message" class="row">
+        <div class="col-auto">
+            <input type="text" class="form-control" id="text" placeholder="Ingresá un mensaje.." required>
+        </div>
+        <div class="col-auto">
+            <input type="submit" value="Enviar" class="btn btn-primary mb-3">
+        </div>
+    </form>
+
+</div>
